@@ -15,7 +15,7 @@ jobs:
     steps: 
       - name: "testing github"
         run: pwd
-      -name: "testing printing"
+      - name: "testing printing"
         run: echo Abod
 
 
