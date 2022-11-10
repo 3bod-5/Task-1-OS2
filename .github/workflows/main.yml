@@ -13,10 +13,7 @@ jobs:
 
 
     steps: 
-      - name: "testing github"
-        run: pwd
-      - name: "testing printing"
-        run: echo Abod
+      - uses" actions/checkout@v3
       - name: "login to docker hub"
         run: docker login --username 3bod --password dckr_pat_hyNOs_qGfNZYrjjCI-rOHg5RSn8
 
